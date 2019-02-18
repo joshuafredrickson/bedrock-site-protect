@@ -11,12 +11,12 @@ This role is made for Trellis (previously known as Bedrock-Ansible), so it depen
 Role Variables
 --------------
 
-The role will read from the `wordpress_sites` dict set in environments files of Trellis. It will search for the `htpasswd` key.
+The role will read from the `web_sites` dict set in environments files of Trellis. It will search for the `htpasswd` key.
 
 Example:
 --------
 <pre>
-wordpress_sites:
+web_sites:
   example.com:
     site_hosts:
       - canonical: example.dev
@@ -76,7 +76,7 @@ Adding / Removing Basic Authentication
       password: secret</b>
 </pre>
 
-in the `wordpress_sites` dict set, and reconfigure via: `ansible-playbook server.yml -e env=<environment>`.
+in the `web_sites` dict set, and reconfigure via: `ansible-playbook server.yml -e env=<environment>`.
 
 License
 -------

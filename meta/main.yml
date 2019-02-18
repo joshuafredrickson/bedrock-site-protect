@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Louis-Michel Couture
-  description: Lock your Bedrock WordPress with htpasswd
+  description: Lock your Bedrock site with htpasswd
   license: "license (MIT)"
   min_ansible_version: 2.4
   platforms:
