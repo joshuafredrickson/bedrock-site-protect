@@ -46,11 +46,11 @@ Dependencies
 Example Playbook
 ----------------
 
-To get started, add this role (`louim.bedrock-site-protect`) to the `requirements.yml` file in your Trellis installation like so:
+To get started, add this role (`joshuafrerickson.bedrock-site-protect`) to the `requirements.yml` file in your Trellis installation like so:
 
 ```
 - name: bedrock-site-protect
-  src: louim.bedrock-site-protect
+  src: joshuafredrickson.bedrock-site-protect
   version: 2.0.0
 ```
 
